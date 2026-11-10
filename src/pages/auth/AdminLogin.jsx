@@ -31,7 +31,7 @@ export default function AdminLogin() {
 
   return (
     <AuthLayout title="Administrator Login" subtitle="Restricted to CITE-SC inventory administrators."
-      footer={<span><Link to="/login">Student / Organization sign in</Link></span>}>
+      footer={<span><Link to="/login">Student / Teacher sign in</Link></span>}>
       {msg && <div className="alert alert-danger" role="alert">{msg.text}</div>}
       <form onSubmit={submit} noValidate>
         <Field id="username" label="Username / Administrator ID" value={form.username} onChange={set} error={errors.username} autoComplete="username" />
