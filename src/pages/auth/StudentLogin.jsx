@@ -31,7 +31,7 @@ export default function StudentLogin() {
   };
 
   return (
-    <AuthLayout title="Student / Organization Sign In" subtitle="Use your registered ID number to continue."
+    <AuthLayout title="Student / Teacher Sign In" subtitle="Use your registered ID number to continue."
       footer={<><span>No account? <Link to="/register">Create one</Link></span><span><Link to="/admin/login">Administrator login</Link></span></>}>
       {msg && <div className={`alert alert-${msg.type}`} role="alert">{msg.text}</div>}
       <form onSubmit={submit} noValidate>
