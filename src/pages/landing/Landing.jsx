@@ -43,7 +43,7 @@ export default function Landing() {
           <p>A centralized inventory management platform designed to help the College of Information Technology Education Student Council efficiently monitor organizational assets, manage borrowing requests, track returns, and maintain accurate inventory records.</p>
           <div className="hero-btns">
             <Link to="/register" className="btn btn-primary btn-lg">Get Started</Link>
-            <Link to="/login" className="btn btn-outline-primary btn-lg">Student / Organization Sign In</Link>
+            <Link to="/login" className="btn btn-outline-primary btn-lg">Student / Teacher Sign In</Link>
             <Link to="/admin/login" className="btn btn-dark btn-lg">Administrator Login</Link>
           </div>
         </div>
