@@ -1,0 +1,25 @@
+/* Single theming source: every component uses these tokens. */
+:root, [data-theme='light'] {
+  --amber: #EBA832;
+  --amber-hover: #d6951f;
+  --black: #000000;
+  --white: #FFFFFF;
+  --bg: #F5F5F5;
+  --surface: #FFFFFF;
+  --surface-2: #F5F5F5;
+  --border: #D9D9D9;
+  --text: #000000;
+  --text-muted: #5c5c5c;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 6px 18px rgba(0,0,0,.05);
+  --radius: 14px;
+  --on-amber: #000000;
+}
+[data-theme='dark'] {
+  --bg: #0b0b0b;
+  --surface: #161616;
+  --surface-2: #1f1f1f;
+  --border: #333333;
+  --text: #F5F5F5;
+  --text-muted: #a8a8a8;
+  --shadow: 0 1px 3px rgba(0,0,0,.6), 0 6px 18px rgba(0,0,0,.4);
+}
