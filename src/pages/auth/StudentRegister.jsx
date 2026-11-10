@@ -27,7 +27,7 @@ export default function StudentRegister() {
   };
 
   return (
-    <AuthLayout title="Create Student / Organization Account" subtitle="Registration creates a student/organization account only."
+    <AuthLayout title="Create Student / Teacher Account" subtitle="Registration creates a student/teacher account only."
       footer={<span>Already registered? <Link to="/login">Sign in</Link></span>}>
       {msg && <div className={`alert alert-${msg.type}`} role="alert">{msg.text}</div>}
       <form onSubmit={submit} noValidate>
